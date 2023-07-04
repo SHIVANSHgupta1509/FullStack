@@ -3,7 +3,7 @@ const bodyParser=require('body-parser');
 const app = express()
 const port = 3000
 
-// app.use(bodyParser.json());
+ app.use(bodyParser.json());
 // function middleware (req,res,next){
 //      if(req.headers.a>=1 && req.headers.b>=2){
 //       next();
